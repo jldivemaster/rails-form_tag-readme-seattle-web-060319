@@ -1,4 +1,5 @@
-require 'rails_helper'
+#require 'rails_helper'
+require 'capybara/rails'
 
 describe 'new post' do
   it 'ensures that the form route works with the /new action' do
